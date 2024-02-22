@@ -131,9 +131,9 @@ header {
 .image_content_ul {
   display: flex;
   flex-direction: row;
-  margin-top: 82px;
+  margin-top: 82px; 
 }
-.two {
+.image_content_two {
   margin-left: 65px;
 }
 .image_num {
@@ -144,9 +144,9 @@ header {
 }
 .image_txt{
     color: rgba(132, 133, 134, 1);
-  font-family: "Inter", sans-serif;
-  font-size: 12.26px;
-  font-weight:500 ;
+    font-family: "Inter", sans-serif;
+    font-size: 12.26px;
+    font-weight:500 ;
 }
 
 
@@ -158,18 +158,19 @@ header {
 .image_content_right{
  height: 700px;
   margin-left: auto;
+  overflow: hidden;
 }
 .one{
-  transform: translateY(-30px) translateX(380px);
+  transform: translateY(-30px) translateX(300px);
 }
 .four{
- transform: translateY(150px) translateX(15px);
+ transform: translateY(290px) translateX(15px);
 }
 .two{
   transform: translateY(-50px) translateX(370px);
 }
 .three{
-  transform: translateY(-260px) translateX(400px)
+  transform: translateY(-150px) translateX(350px)
 }
 .image_button{
   position: relative;
@@ -198,10 +199,16 @@ header {
 
 
 /*ТАБЛИЦА*/
-.top_collection_table{
-  max-width: 1250px;
+.top_collection{
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
   font-family:"Poppins", sans-serif;
-   font-weight: 500;
+  font-weight: 500;
+}
+.top_collection_table{
+  width: 1250px;
+
 }
 .top_collection_table thead{
   color: rgba(147, 152, 154, 1);
@@ -211,23 +218,87 @@ header {
   color: rgba(20, 20, 22, 1);
   font-size: 28px;
 }
+.top_collection_table th{
+  border-bottom: solid rgba(235, 233, 233, 1) 1.70px;
+}
+.caption_bold{
+  font-size: 45px;
+  font-weight: 600;
+}
 .first_tr1,.first_tr,.first_tr2,.first_tr3,.first_tr4{
   width: 417px;
   height: 85px;
   
 }
+.first_tr1,.first_tr2,.first_tr3,.first_tr4{
+  text-align: left;
+}
+.first{
+  text-align: left;
+}
 .first_tr1::before{
+  content: url('./img/icon-1.svg');
+  float: left;
+}
+.first_tr2::before{
+  content: url('./img/icon.svg');
+  float: left;
+}
+.first_tr3::before{
+  content: url('./img/icon-2.svg');
+  float: left;
+}
+.first_tr4::before{
   content: url('./img/icon.svg');
   float: left;
 }
 .Alex{
   color: rgba(100, 116, 139, 1);
   font-size: 22px;
+  float: left;
 }
-.two_tr{
-  
-}
-.three_tr{
+.top_collection_explore_all{
+float: right;
+margin-top: 103px;
+text-decoration: none;
+color: rgba(172, 173, 185, 1);
+font-size: 17.67px;
 
 }
+
+
+
+
+
+
+
+/*Магазин*/
+.Explore_Marketplace_price{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(199, 199, 199, 0.6);
+  width: 282px;
+  height: 404px;
+  border-radius: 23.55px;
+}
+.Explore_Marketplace_price_img{
+  padding:14.16px;
+  border-radius: 23.55px;
+}
+.Explore_Marketplace_price_h{
+  margin:18.82px 18.82px  20.5px 18.82px 
+}
+.Explore_Marketplace_price_bottom{
+  display: flex;
+  width: 243px;
+  flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+} 
+.Explore_Marketplace_price_button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 

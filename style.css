@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* ::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+
+
+        /*HEADER*/
+header {
+  margin: 45px auto;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_mav {
+  margin-right: 118px;
+}
+.header_a {
+  margin-right: 53px;
+  text-decoration: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header_form {
+  width: 350px;
+  height: 57px;
+  background-color: rgba(157, 157, 157, 0.3);
+  border: none;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.header_form_img {
+  width: 22px;
+  height: 22px;
+  margin-left: 23px;
+  margin-right: 26px;
+}
+.header_input {
+  border: none;
+  color: #c2c3cb;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 15.71px;
+  font-weight: 500;
+  width: 220px;
+}
+.header_button {
+  width: 200px;
+  height: 57px;
+  background-color: rgba(20, 20, 22, 1);
+  border-radius: 16px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*секция с конченной картинкой*/
+.image {
+  display: flex;
+  flex-direction: row;
+  margin-top: 111px;
+  max-width: 1440px;
+  padding-left: 97px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image_content {
+  align-items: flex-start;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.image_content_h {
+  font-size: 75px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.image_content_p {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.image_content_btn {
+  margin-top: 45px;
+}
+.image_content_btn button:first-child {
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12.41px;
+}
+.image_content_btn button:last-child {
+  background-color: transparent;
+  color: black;
+  border: solid 1.5px black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 138px;
+  height: 60px;
+  border-radius: 12.41px;
+}
+.image_content_ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 82px;
+}
+.two {
+  margin-left: 65px;
+}
+.image_num {
+  color: black;
+  font-family: "Public Sans", sans-serif;
+  font-size: 36.77px;
+  font-weight:600 ;
+}
+.image_txt{
+    color: rgba(132, 133, 134, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 12.26px;
+  font-weight:500 ;
+}
+
+
+
+
+
+
+      /*conchcartinka*/
+.image_content_right{
+ height: 700px;
+  margin-left: auto;
+}
+.one{
+  transform: translateY(-30px) translateX(380px);
+}
+.four{
+ transform: translateY(150px) translateX(15px);
+}
+.two{
+  transform: translateY(-50px) translateX(370px);
+}
+.three{
+  transform: translateY(-260px) translateX(400px)
+}
+.image_button{
+  position: relative;
+  margin-top: 71px;
+  margin-left:40%;
+
+
+ 
+}
+.image_button{
+  width: 166px;
+  height: 69px;
+  background-color: rgba(15, 15, 15, 0.12);
+  border-radius: 17.25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image_button button{
+  width: 83px;
+  height:69px ;
+  border: none;
+}
+
+
+
+
+/*ТАБЛИЦА*/
+.top_collection_table{
+  max-width: 1250px;
+  font-family:"Poppins", sans-serif;
+   font-weight: 500;
+}
+.top_collection_table thead{
+  color: rgba(147, 152, 154, 1);
+  font-size: 22px;
+}
+.top_collection_table tbody{
+  color: rgba(20, 20, 22, 1);
+  font-size: 28px;
+}
+.first_tr1,.first_tr,.first_tr2,.first_tr3,.first_tr4{
+  width: 417px;
+  height: 85px;
+  
+}
+.first_tr1::before{
+  content: url('./img/icon.svg');
+  float: left;
+}
+.Alex{
+  color: rgba(100, 116, 139, 1);
+  font-size: 22px;
+}
+.two_tr{
+  
+}
+.three_tr{
+
+}
+
